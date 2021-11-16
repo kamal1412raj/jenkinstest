@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('welcome') {
             steps {
-                sh 'java --version'
+                echo "welcome this is my first project"
             }
         }
     }
